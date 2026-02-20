@@ -125,6 +125,7 @@ export function Hero() {
                 className="w-full h-full object-cover"
                 crossOrigin="anonymous"
                 playsInline
+                poster="/miniaturka-onelister.png"
               >
                 Twoja przeglądarka nie obsługuje wideo.
               </video>
