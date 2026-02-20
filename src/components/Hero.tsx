@@ -63,6 +63,16 @@ export function Hero() {
           width: 54px !important;
           height: 54px !important;
         }
+        /* Mniejszy przycisk play na mobile */
+        @media (max-width: 640px) {
+          .plyr__control--overlaid {
+            padding: 20px !important;
+          }
+          .plyr__control--overlaid svg {
+            width: 36px !important;
+            height: 36px !important;
+          }
+        }
       `}</style>
 
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/15 via-background to-background" />
@@ -70,7 +80,7 @@ export function Hero() {
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

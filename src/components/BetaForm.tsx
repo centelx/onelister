@@ -77,7 +77,7 @@ export function BetaForm() {
 
   if (status === 'success') {
     return (
-      <section id="beta" className="py-24">
+      <section id="beta" className="py-16">
         <div className="max-w-2xl mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -96,7 +96,7 @@ export function BetaForm() {
   }
 
   return (
-    <section id="beta" className="py-24 relative">
+    <section id="beta" className="py-16 relative">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/8 via-transparent to-transparent" />
 
       <div className="relative max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
