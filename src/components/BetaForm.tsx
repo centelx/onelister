@@ -14,9 +14,9 @@ const listingOptions = [
 
 const timeOptions = [
   { value: '', label: 'Wybierz...' },
+  { value: '3', label: '2-3 min' },
   { value: '5', label: '5 min' },
-  { value: '10', label: '10 min' },
-  { value: '15', label: '15 min' },
+  { value: '7', label: '7 min+' },
 ];
 
 const platformOptions = [
@@ -259,7 +259,7 @@ export function BetaForm() {
 
           <div>
             <label htmlFor="price_willingness" className="block text-sm font-medium text-text-muted mb-1.5">
-              Ile był(a)byś w stanie zapłacić miesięcznie za narzędzie, które odda Ci te{' '}
+              Ile był(a) byś w stanie zapłacić miesięcznie za narzędzie, które odda Ci te{' '}
               {lostHours > 0 ? `${lostHours}` : '...'} godzin?
             </label>
             <textarea
@@ -267,7 +267,7 @@ export function BetaForm() {
               name="price_willingness"
               rows={3}
               className="w-full px-4 py-3 bg-background border border-white/10 rounded-xl text-text-main placeholder-text-muted/50 focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-none"
-              placeholder="np. 50 zł, 100 zł, zależy od funkcji..."
+              placeholder="Wpisz swoją odpowiedź..."
             />
           </div>
 

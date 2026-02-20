@@ -13,7 +13,7 @@ const steps = [
   {
     step: 2,
     icon: FileText,
-    title: 'Tworzysz Master Listing',
+    title: 'Tworzysz One Listing',
     description: 'Jeden formularz, dodajesz zdjęcia, podajesz wady. Wypełniasz raz, a nie trzy razy.',
     colSpan: 'md:col-span-1',
     rowSpan: '',
