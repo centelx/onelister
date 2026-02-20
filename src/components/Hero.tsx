@@ -99,7 +99,7 @@ export function Hero() {
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
             Sprzedajesz ubrania na{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent whitespace-nowrap">
               Vinted i Grailed?
             </span>
             <br />
