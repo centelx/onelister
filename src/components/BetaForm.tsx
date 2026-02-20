@@ -48,7 +48,7 @@ export function BetaForm() {
 
     const form = e.currentTarget;
     const formData = new FormData(form);
-    formData.append('access_key', '12345678-1234-1234-1234-1234567890ab');
+    formData.append('access_key', '4343a106-203d-4279-9980-da05e02f360f');
     formData.append('calculated_lost_hours', String(lostHours));
 
     try {
